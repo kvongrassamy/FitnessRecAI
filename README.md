@@ -8,11 +8,12 @@ This project is to create an AI Agent to provide recommendations to weight lifte
     - Create a DB named fitnessguide and insert JSON:
     ```bash
         {"_id":{"$oid":"678bc7861aea6a0258b0737c"},"title":"Sub-Topic","description":"Please provide sub topics that would provide a roadmap for your workout.  You can ask you AI Partner for any recommendations","topics":[],"created_at":{"$date":{"$numberLong":"1737158400000"}},"mongo_id":{"$oid":"678bc7861aea6a0258b0737c"}}
-        ```
+    ```
     - Create a DB named resources and insert JSON:
+      
     ```bash
         {"_id":{"$oid":"678bccc81aea6a0258b073c3"},"name":"ResourceTitle","description":"ResourceDesc","asset":"SomePath","resource_type":"VideoOfSomeSort","created_at":{"$date":{"$numberLong":"1737158400000"}}}
-        ```
+    ```
 
 - activate the env with 
 ```bash 
