@@ -1,0 +1,14 @@
+{
+  "_id": {
+    "$oid": "678bccc81aea6a0258b073c3"
+  },
+  "name": "ResourceTitle",
+  "description": "ResourceDesc",
+  "asset": "SomePath",
+  "resource_type": "VideoOfSomeSort",
+  "created_at": {
+    "$date": {
+      "$numberLong": "1737158400000"
+    }
+  }
+}
